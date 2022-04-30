@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Predictions</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+
+   <nav>
+    <input type="checkbox" id="menu">
+    <label for="menu" id="top"> ☰ </label>
+    <ul id="hamburguesa">
+      <li class="arriba"><a class="guide" onclick="myFunction()">Instrucciones</a></li>
+    </ul>
+  </nav>
+
+  <div>
+    <h1>Predicciones :
+    <img onclick="myFunction()" src="assets/desplazarse.png" class="instruction"></img></h1>
+  </div>
+
+</header>
+
+
+  <div class="square">
+    <h2 id="result">💥 Pulsa sobre la imagen y Conoceras tu Futuro</h2>
+    <div id="recommended" class="future">
+
+      <div class="card">
+        <img src="assets/bola.png" alt="foto bola cristal" onclick="play()">
+        <h2 class="name">Preguntale a la bola magica</h2>
+      </div>
+
+      <div class="card">
+        <img src="assets/gorgona.png" alt="foto de gorgona" onclick="play()">
+        <h2 class="name">Gorgona y sus predicciones</h2>
+      </div>
+
+      <div class="card">
+        <img src="assets/sombrero.png" alt="sombrero de bruja" onclick="play()">
+        <h2 class="name">La bruja adivinara tu futuro </h2>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="/index.js"></script>
+</body>
+
+</html>
