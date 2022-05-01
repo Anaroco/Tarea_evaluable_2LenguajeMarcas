@@ -100,3 +100,10 @@ h2{
    color: white;
    cursor: url(https://www.flaticon.es/autores/juicy-fish), pointer;
   }
+
+  footer{
+    text-align: center;
+    border-top: 3px solid #e88c0cfa;
+    margin-top: 50px; 
+    padding: 20px;
+}

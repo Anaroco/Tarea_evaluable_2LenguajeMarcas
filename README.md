@@ -1,13 +1,16 @@
-# predictions
-future predictions game
-game to know your future
+# Predicciones
+Juego de predicciones con Js
 
 #Languagues
 HTML
 CSS
 JavaScript
 
-#Rules
-push in the images to know the predictins
+# Instrucciones
+Introducir nombre en el alert
+pulsar sobre una imagen para conocer tu futuro
+
+# Autora 
+Ana Robles Cortes
 
 

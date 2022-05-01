@@ -8,7 +8,7 @@ let nombre = prompt("Para jugar Dime tu nombre");
 
 function play() {
 
-// cogemos un indice aletoatorio de cada array con Math.random y para convertirlo en numero entero usamos Math.floor
+// cogemos un indice aleatorio de cada array con Math.random y para convertirlo en numero entero usamos Math.floor
     let randomYear = years[Math.floor(Math.random() * 7)];
     let randomFact = facts[Math.floor(Math.random() * 7)];
     let randomAdj = adverbs[Math.floor(Math.random() * 7)];
@@ -26,6 +26,10 @@ function play() {
 
 function myFunction() {
     alert("Pulsa sobre la imagen y leeras tu futuro");
+   
+}
+function autor(){
+    alert(" La bola Mágica");
 }
 
 
