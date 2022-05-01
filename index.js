@@ -1,5 +1,5 @@
 
-let years = ["2022", "2023", "2024", "2025", "Febrero", "Junio", "el proximo año"];
+let years = ["2022", "2023", "2024", "2025", "Diciembre", "Junio", "el proximo año"];
 let facts = ["engordar", "viajar", "trabajar", "adelgazar", "ganar", "perder", "regalar"];
 let adverbs = ["mucho", "poco", "demasiado", "felizmente", "a montones", "de vez en cuando", "con un poco de voluntad"];
 
