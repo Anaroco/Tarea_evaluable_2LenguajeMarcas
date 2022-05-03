@@ -23,12 +23,17 @@ function play() {
 
 }
 
-function myFunction() {
-    alert("Pulsa sobre la imagen y leeras tu futuro");
+//llamamos a los alerts cargados desde la libreria sweetAlert
+
+function mostrar(){
+
+    swal('Ana Robles');
 
 }
-function autor() {
-    alert(" La bola Mágica");
+function instrucciones(){
+
+    swal('Pulsa una imagen para jugar');
+
 }
 
 

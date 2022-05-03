@@ -1,109 +1,116 @@
 h1 {
-    font-family:'The Nautigal', cursive;
-    font-size: 10em;
-    background-image: url("imagenes/fondo.jpg");
-    display: block;
-    text-align: center;
-    margin: 0px;
+  font-family: 'The Nautigal', cursive;
+  font-size: 10em;
+  background-image: url("imagenes/fondo.jpg");
+  display: block;
+  text-align: center;
+  margin: 0px;
+  box-shadow: 0 4px 8px 0 rgba(83, 17, 144, 0.39), 0 60px 60px 0 rgba(80, 7, 117, 0.19);
 }
-nav{
+
+nav {
   display: inline;
- } 
+}
 
- ul{
+ul {
   display: none;
- }
+}
 
- .arriba {
+.arriba {
   display: inline;
   margin: 0;
   padding: 10px;
   list-style: none;
- }
-
-input:checked ~ label {
- background:gold;
 }
 
-input:checked  ~ ul {
- display:block;
+
+input:checked~label {
+  background: gold;
+}
+
+input:checked~ul {
+  display: block;
 }
 
 input {
- display: none;
+  display: none;
 }
 
-#top:hover{
- background: #960cb2;
+#top:hover {
+  background: #960cb2;
 }
 
 #top {
- float:left;
- box-sizing: border-box;
- border: 2px solid #93e3fc;
- border-radius: 5px;
- width: 30px;
- height: 30px;
- line-height: 30px;
- font-weight: bold;
- text-align: center;
- user-select: none;
-} 
+  float: left;
+  box-sizing: border-box;
+  border: 2px solid #93e3fc;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
 
 .instruction {
   height: 6vw;
   width: 6vw;
   float: right;
-  margin-right:100px;
+  margin-right: 100px;
   margin-top: 70px;
   cursor: pointer;
 }
 
-.guide{
-  font-size:2.5em;
-  font-family:'The Nautigal', cursive;
+.guide {
+  font-size: 2.5em;
+  font-family: 'The Nautigal', cursive;
   cursor: pointer;
 }
 
 #result {
-    text-align: center;
-    font-size: 80px;
-    font-family:'The Nautigal', cursive; ;
-    padding-top: 50px;
+  text-align: center;
+  font-size: 80px;
+  font-family: 'The Nautigal', cursive;
+  ;
+  padding-top: 50px;
 }
 
 .future img {
-    height: 14vw;
-    width: 14vw;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(83, 17, 144, 0.39), 0 6px 20px 0 rgba(80, 7, 117, 0.19);
-  }
-
-  #recommended {
-    padding-top:100px;
-    display: flex;
-    justify-content:space-evenly;
-  }
-
-h2{
-  padding-top:20px;
-  display: flex;
-  justify-content:space-evenly;
-  
+  height: 14vw;
+  width: 14vw;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(83, 17, 144, 0.39), 0 60px 60px 0 rgba(80, 7, 117, 0.19);
 }
-  .card{
-      text-align: center;
-  }
-  
-.card img:hover {
-   background-color:#ffef01;
-   color: white;
-   cursor: url(https://www.flaticon.es/autores/juicy-fish), pointer;
-  }
 
-  footer{
-    text-align: center;
-    border-top: 3px solid #e88c0cfa;
-    margin-top: 50px; 
-    padding: 20px;
+#recommended {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+
+.card {
+  text-align: center;
+}
+
+.card img:hover {
+  background-color: #ffef01;
+  color: white;
+  cursor: url(https://www.flaticon.es/autores/juicy-fish), pointer;
+}
+
+footer {
+  text-align: center;
+  border-top: 3px solid #e88c0cfa;
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(83, 17, 144, 0.39), 0 60px 60px 0 rgba(80, 7, 117, 0.19);
 }
