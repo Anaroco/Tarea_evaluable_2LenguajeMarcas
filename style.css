@@ -25,19 +25,19 @@ ul {
 
 
 input:checked~label {
-  background: gold;
+  background: rgba(83, 17, 144, 0.39);
 }
 
 input:checked~ul {
   display: block;
 }
 
-input {
+.hamb {
   display: none;
 }
 
 #top:hover {
-  background: #960cb2;
+  background:  rgba(83, 17, 144, 0.39);
 }
 
 #top {
@@ -106,6 +106,34 @@ h2 {
   color: white;
   cursor: url(https://www.flaticon.es/autores/juicy-fish), pointer;
 }
+
+.swal-modal {
+  background-color: white;
+  border: 10px solid rgba(83, 17, 144, 0.39);
+}
+
+#formulario {
+
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 60px;
+  box-shadow: 0 4px 8px 0 rgba(83, 17, 144, 0.39), 0 60px 60px 0 rgba(80, 7, 117, 0.19);
+  padding: 60px;
+}
+.papel {
+  height: 14vw;
+  width: 14vw;
+  margin-left:30px;
+  margin-top: 60px;
+  
+
+}
+
+h3,h4 {
+display: inline;
+
+}
+
 
 footer {
   text-align: center;

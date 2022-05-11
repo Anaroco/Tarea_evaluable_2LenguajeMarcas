@@ -25,16 +25,33 @@ function play() {
 
 //llamamos a los alerts cargados desde la libreria sweetAlert
 
-function mostrar(){
+function mostrar() {
 
     swal('Ana Robles');
 
 }
-function instrucciones(){
+function instrucciones() {
 
     swal('Pulsa una imagen para jugar');
 
 }
-
+const $formulario = document.querySelector("#formulario"),
+            $nombre = document.querySelector("#nombre"),
+            $correo = document.querySelector("#correo");
+        $formulario.onsubmit = evento => {
+            evento.preventDefault();
+            const nombre = $nombre.value,
+                correo = $correo.value;
+            // Validar
+            if (nombre === "Luis" || nombre === "José") {
+                alert("No pueden ser esos nombres");
+                return;
+            }
+            if (correo.endsWith("@hotmail.com")) {
+                alert("No puede ser de hotmail");
+                return;
+            }
+            $formulario.submit();
+        };
 
 
